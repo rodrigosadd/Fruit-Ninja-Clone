@@ -1,0 +1,145 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'pt' Physical Memory: 8126 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Programas/Projetos Unity/Fruit Ninja
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54524
+Successfully changed project path to: F:/Programas/Projetos Unity/Fruit Ninja
+F:/Programas/Projetos Unity/Fruit Ninja
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Programas/Projetos Unity/Fruit Ninja/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6677
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002553 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.297 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000692 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.5 MB.
+System memory in use after: 59.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1582.
+Total: 1.917100 ms (FindLiveObjects: 0.170700 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.610000 ms  DeleteObjects: 0.103100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(1ab5bd7d82c3c9541a3241239b90fb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(1ab5bd7d82c3c9541a3241239b90fb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273cd451f87414d5ec9a9dd29decf415') in 0.013715 seconds
+  Import took 0.016193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000972 seconds.
+  path: Assets/Sounds
+  artifactKey: Guid(a925a3e975a79794eafbfe943b42bd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds using Guid(a925a3e975a79794eafbfe943b42bd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f55d889cce7ad471467dab1600222e') in 0.009569 seconds
+  Import took 0.011373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8571a5ae9bed1454340f2bcf6e42ed35') in 0.044119 seconds
+  Import took 0.046027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.762428 seconds.
+  path: Assets/Sounds/Explosion.mp3
+  artifactKey: Guid(57d5d2ade7bd25c469b6210c904068d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Explosion.mp3 using Guid(57d5d2ade7bd25c469b6210c904068d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc20127fcea451c105aff1e0703b41ea') in 0.152710 seconds
+  Import took 0.154857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Sounds/fruit impact.mp3
+  artifactKey: Guid(318581e69ffee2c4a978a7badee0f34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/fruit impact.mp3 using Guid(318581e69ffee2c4a978a7badee0f34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f53e99197747395faa2d73a86cf925d') in 0.013390 seconds
+  Import took 0.015349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sounds/squelch.mp3
+  artifactKey: Guid(c27553d2ab9ea1347821cfd60ffee038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/squelch.mp3 using Guid(c27553d2ab9ea1347821cfd60ffee038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022529964591c41f901f16fd0eaedbfd') in 0.013033 seconds
+  Import took 0.015393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sounds/theme.mp3
+  artifactKey: Guid(07193a14dd8b56340aa1352efcfd211e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/theme.mp3 using Guid(07193a14dd8b56340aa1352efcfd211e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a53a737a11d54175b7952976696dcd4') in 0.023214 seconds
+  Import took 0.025164 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000756 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.836 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1594.
+Total: 1.917400 ms (FindLiveObjects: 0.157700 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.657500 ms  DeleteObjects: 0.060400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
