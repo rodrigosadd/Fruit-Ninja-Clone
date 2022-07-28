@@ -34,27 +34,27 @@ public class AudioManager : MonoBehaviour
 
     public void Play(string name)
     {
-        Sound sound = Array.Find(sounds, sound => sound.name == name);
+        Sound currentSound = Array.Find(sounds, sound => sound.name == name);
 
-        if(sound == null)
+        if(currentSound == null)
         {
             Debug.LogWarning("Sound: " + name + " not found");
             return;
         }
 
-        sound.source.Play();
+        currentSound.source.Play();
     }
 
     public void Stop(string name)
     {
-        Sound sound = Array.Find(sounds, sound => sound.name == name);
+        Sound currentSound = Array.Find(sounds, sound => sound.name == name);
 
-        if(sound == null)
+        if(currentSound == null)
         {
             Debug.LogWarning("Sound: " + name + " not found");
             return;
         }
 
-        sound.source.Stop();
+        currentSound.source.Stop();
     }
 }
